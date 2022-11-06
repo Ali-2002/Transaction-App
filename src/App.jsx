@@ -1,9 +1,4 @@
-import Header from './components/Header';
-import Pages from './components/Pages';
-import Get from './components/Get';
-import Post from './components/Post';
-import Del from './components/Del';
-import Put from './components/Put'
+import {Get,Post,Put,Del,Pages,Header} from './components'
 import { Route, Routes } from "react-router-dom";
 const App= () => {
 
