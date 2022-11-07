@@ -16,12 +16,6 @@ const Post= () => {
         to: to,
         amount: amount,
       })
-      .catch(() => {
-        setNotification("Something is wrong!");
-      })
-      if (response.status === 201 || response.status===200) {
-        setNotification("Successful");
-      }
     }
   setFrom("");
   setTo("");
